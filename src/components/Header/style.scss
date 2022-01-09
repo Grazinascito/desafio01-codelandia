@@ -1,0 +1,44 @@
+header {
+  background: linear-gradient(88.27deg, #574ae8 0%, #3ea1db 100%);
+  height: 25rem;
+  width: 100%;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+
+  .header-content {
+    width: 70%;
+    margin-top: 4rem;
+
+    position: relative;
+    .header-content--logo {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header-content--input input {
+      width: 100%;
+      margin-top: 9rem;
+      height: 6.2rem;
+      border: none;
+      outline: none;
+      background-color: #ffffff33;
+      padding: 0 5.5rem;
+      border-radius: 0.5rem;
+      color: #fff;
+
+      &::placeholder {
+        font-family: "Inter";
+        color: #ffffff7a;
+      }
+    }
+
+    .header-content--input img {
+      position: absolute;
+      bottom: 22%;
+      padding: 0 2rem;
+    }
+  }
+}
