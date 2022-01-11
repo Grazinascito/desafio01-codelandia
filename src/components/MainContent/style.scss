@@ -32,6 +32,11 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        img{
+            cursor: pointer;
+            width: 3rem;
+        }
     }
 
     .main-text h1{
